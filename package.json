@@ -9,8 +9,8 @@
     "dev:proxy": "set HTTP_PROXY=http://127.0.0.1:7897&& set HTTPS_PROXY=http://127.0.0.1:7897&& next dev"
   },
   "dependencies": {
-    "next": "15.1.6",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "next": "15.5.7",
+    "react": "19.0.1",
+    "react-dom": "19.0.1"
   }
 }
