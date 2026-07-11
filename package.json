@@ -1,0 +1,23 @@
+{
+  "name": "business-grid-tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "if exist .next rmdir /s /q .next",
+    "dev:proxy": "set HTTP_PROXY=http://127.0.0.1:7897&& set HTTPS_PROXY=http://127.0.0.1:7897&& next dev",
+    "dev:local": "set HTTP_PROXY=http://127.0.0.1:7897&& set HTTPS_PROXY=http://127.0.0.1:7897&& next dev -p 3000",
+    "dev:local:no-proxy": "next dev -p 3000"
+  },
+  "dependencies": {
+    "next": "15.5.7",
+    "react": "19.0.1",
+    "react-dom": "19.0.1"
+  },
+  "devDependencies": {
+    "eslint": "9.18.0",
+    "eslint-config-next": "15.1.6"
+  }
+}
